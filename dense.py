@@ -350,9 +350,9 @@ def main():
     TICKER = 'BTC-USD'
     START_DATE = '2018-01-01'
     END_DATE = '2023-12-31'
-    LAG_DAYS = 1
+    LAG_DAYS = 30
     TEST_SIZE = 0.2
-    BATCH_SIZE = 164
+    BATCH_SIZE = 264
     EPOCHS = 100
     LEARNING_RATE = 0.001
     MODEL_PATH = 'bitcoin_return_predictor.pth'
