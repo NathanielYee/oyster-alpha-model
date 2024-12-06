@@ -21,7 +21,7 @@ def fetch_historical_data(symbol='BTC-USD', start_date='2020-01-01', end_date=No
 # Fetch Bitcoin historical data
 if __name__ == '__main__':
     symbol = 'BTC-USD'  # Bitcoin/USD ticker on Yahoo Finance
-    start_date = '2020-01-01'  # Start date
+    start_date = '2009-01-01'  # Start date
     interval = '1d'  # Daily data
     
     data = fetch_historical_data(symbol, start_date, interval=interval)
